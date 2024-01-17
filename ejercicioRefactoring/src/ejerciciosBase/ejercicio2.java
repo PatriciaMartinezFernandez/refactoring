@@ -25,11 +25,16 @@ public class ejercicio2 {
 		double irpf = 0;
 		int dieta = 0;
 		double nomina;
+		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("¿Cuál es tu cargo? Prog. Junior (1), Prog. Senior(2), Jefe de proyecto(3)");
 		cargo = sc.nextInt();
+		
 		System.out.println("¿Incluye dieta? Si(1), No(2)");
 		dieta = sc.nextInt();
+		
+		
 		if (dieta == 1) 
 			System.out.println("¿Cuántos días has estado de viaje visitanto clientes en este mes?");
 			dias = sc.nextInt();
