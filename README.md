@@ -11,10 +11,11 @@
 		 ● Por cada día de viaje visitando clientes se pagan 30 euros extra en concepto
 		de dietas. Al sueldo neto hay que restarle el IRPF, que será de un 25% en
 		caso de estar soltero y un 20% en caso de estar casado.
-# Ejercicio 3
+# Ejercicio 3 Refactorizado
   Escribe un programa que muestre por pantalla todos los números enteros positivos
 	menores a uno leído por teclado que no sean divisibles entre otro también leído de
 	igual forma
+ Se añade formateo de codigo y nuevos metodos para hacerlo mas funcional
 # Ejercicio 4
   Diseñar dos función que reciban como parámetros tres números enteros y que devuelva
   una el máximo y otra el mínimo de los tres números.
